@@ -1,29 +1,29 @@
-// // N1 funksiya yordamida kalkulyator yasash;
-// let a = +prompt("birinchi sonni kiriting");
-// let b = prompt("amalni kiriting");
-// let c = +prompt("ikkinchi sonni kiriting");
-// function calc (a) {
-//     if (b == "+") {
-//         natija = a + c;
-//         console.log(natija);
-//     }
-//     else if (b == "-") {
-//         natija = a - c;
-//         console.log(natija);
-//     }
-//     else if (b == "*") {
-//         natija = a * c;
-//         console.log(natija);
-//     }
-//     else if (b == "/") {
-//         natija = a / c;
-//         console.log(natija);
-//     }
-//     else {
-//         console.log("son va amal kiriting");
-//     }
-// }
-// calc (a)
+// N1 funksiya yordamida kalkulyator yasash;
+let a = +prompt("birinchi sonni kiriting");
+let b = prompt("amalni kiriting");
+let c = +prompt("ikkinchi sonni kiriting");
+function calc (a) {
+    if (b == "+") {
+        natija = a + c;
+        console.log(natija);
+    }
+    else if (b == "-") {
+        natija = a - c;
+        console.log(natija);
+    }
+    else if (b == "*") {
+        natija = a * c;
+        console.log(natija);
+    }
+    else if (b == "/") {
+        natija = a / c;
+        console.log(natija);
+    }
+    else {
+        console.log("son va amal kiriting");
+    }
+}
+calc (a)
 
 
 // // N2 switch yordamida kalkulyator.
